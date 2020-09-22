@@ -6,11 +6,11 @@ namespace Exercice
 {
     class Video : Article
     {
-        protected DateTime duree;
+        protected float duree;
 
-        public abstract void Afficher()
+        public static void Afficher(float duree)
         {
-
+            Console.WriteLine("Le film dure {0} heure", duree);
         }
     }
 }
